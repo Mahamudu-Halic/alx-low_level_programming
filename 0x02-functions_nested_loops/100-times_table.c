@@ -13,25 +13,23 @@ void print_times_table(int n)
 	{
 		for (i = 0; i <= n; i++)
 		{
-			printf("0,");
+			printf("0");
 			for (j = 1; j <= n; j++)
 			{
 				product = i * j;
 				if (product > 99)
 				{
-					printf(" %d", product);
+					printf(", %d", product);
 				}
 				else if (product > 9 && product <= 99)
 				{
-					printf("  %d", product);
+					printf(",  %d", product);
 				}
 				else
 				{
-					printf("   %d", product);
+					printf(",   %d", product);
 				}
 
-				if (j != n)
-					printf(",");
 				if (j == n)
 					continue;
 			}
