@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *print_time_table - prints the n times table
+ *print_times_table - prints the n times table
  *@n: value to be computed.
  */
-void print_time_table(int n)
+void print_times_table(int n)
 {
 	int i;
 	int j;
