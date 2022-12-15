@@ -1,4 +1,3 @@
-carrie@ubuntu:/debugging$ cat 3-print_remaining_days.c
 #include <stdio.h>
 #include "main.h"
 
@@ -13,7 +12,7 @@ carrie@ubuntu:/debugging$ cat 3-print_remaining_days.c
 
 void print_remaining_days(int month, int day, int year)
 {
-    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0 && year % 100 == 0))
+    if ((year % 4 == 0 || year % 400 == 0) && !(year % 100 == 0))
     {
         if (month >= 2 && day >= 60)
         {
