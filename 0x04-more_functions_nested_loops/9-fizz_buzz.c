@@ -5,7 +5,7 @@
  *prints fizz if multiple of 3
  *prints buzz if multiple of 5
  *prints fizzbuzz if multible of both 3 and 5
- *return: Always 0.
+ *Return: Always 0.
  */
  int main(void)
 {
