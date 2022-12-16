@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- *main - prints numbers from 1 to 100
- *prints fizz if multiple of 3
- *prints buzz if multiple of 5
- *prints fizzbuzz if multible of both 3 and 5
- *Return: Always 0.
+ * main - entry point
+ *
+ * Description: prints the numbers 1 - 100 w/
+ * Fizz for multiples of 3, Buzz for multiples of 5,
+ * and FizzBuzz for multiples of both
+ *
+ * Return: always 0
  */
- int main(void)
+int main(void)
 {
 	int i;
 
