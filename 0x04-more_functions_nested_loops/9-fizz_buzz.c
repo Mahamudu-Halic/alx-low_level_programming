@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  *main - prints numbers from 1 to 100
- *	 prints fizz if multiple of 3
- *	 prints buzz if multiple of 5
- *	 prints fizzbuzz if multible of both 3 and 5
+ *prints fizz if multiple of 3
+ *prints buzz if multiple of 5
+ *prints fizzbuzz if multible of both 3 and 5
  *return: Always 0.
  */
 int main(void)
