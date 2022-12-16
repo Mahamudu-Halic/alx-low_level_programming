@@ -7,8 +7,8 @@
 int _isdigit(int c)
 {
 	if (n >= 48 && n <= 57)
-		return(1);
+		return (1);
 	else
-		return(0);
+		return (0);
 	_putchar("\n");
 }
