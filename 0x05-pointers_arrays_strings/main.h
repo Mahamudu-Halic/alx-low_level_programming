@@ -3,3 +3,4 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 int _putchar(char a);
 void _puts(char *str);
+void print_env(char *s);
