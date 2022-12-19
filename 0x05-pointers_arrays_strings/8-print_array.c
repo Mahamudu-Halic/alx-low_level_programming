@@ -5,7 +5,7 @@
  *@a: array to be inputed
  *@n: number of times array runs
  */
-void print_array(int *a; int n)
+void print_array(int *a, int n)
 {
 	int i;
 
