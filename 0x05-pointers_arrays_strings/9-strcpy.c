@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  *_strcpy - copies string
  *@dest: where to copy string to
@@ -7,9 +8,11 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i;
+	int i, j;
 
-	for (i = 0; src[i] != '\0'; i++)
-		dest[i] = src[i];
+	for (i = 0; src[i]; i++)
+		;
+	for (j = 0; j <= i; j++)
+		dest[j] = src[j];
 	return (dest);
 }
