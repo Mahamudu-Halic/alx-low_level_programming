@@ -23,7 +23,7 @@ for (i = 0; i < size * size; i++)
 
 if (i % (size + 1) == 0)
 sum += *(a + i);
-
+printf("%d\n", *(a + i));
 }
 printf("%d",sum);
 putchar('\n');
