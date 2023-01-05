@@ -7,14 +7,14 @@
  */
 int is_prime(int n, int c)
 {
-    if (n % c == 0)
-	{
-		if (n == c)
-			return (1);
-		else
-			return (0);
-	}
-    return (0 + is_prime(n, c + 1));
+if (n % c == 0)
+{
+if (n == c)
+return (1);
+else
+return (0);
+}
+return (0 + is_prime(n, c + 1));
 }
 /**
  * is_prime_number - detects if an input number is a prime number.
@@ -23,7 +23,7 @@ int is_prime(int n, int c)
  */
 int is_prime_number(int n)
 {
-	if (n < 2)
-		return (0);
-	    return (is_prime(n, 2));
+if (n < 2)
+return (0);
+return (is_prime(n, 2));
 }
