@@ -11,17 +11,18 @@ int squareRoot(int number, int i)
 if (i <= number)
 {
 if (i * i == number)
-return i;
+return (i);
 else
-return squareRoot(number, i + 1);
+return (squareRoot(number, i + 1));
 }
-return -1;
+return (-1);
 }
 /**
  * _sqrt_recursion - returns the natural square root of a number.
  * @n: input number.
  * Return: natural square root.
  */
-int _sqrt_recursion(int n){
-return squareRoot(n, 1);
+int _sqrt_recursion(int n)
+{
+return (squareRoot(n, 1));
 }
