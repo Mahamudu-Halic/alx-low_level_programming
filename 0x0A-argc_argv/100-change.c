@@ -43,5 +43,5 @@ int main(int argc, char **argv)
 		cent--;
 	}
 	printf("%d\n", count);
-		return 0;
+		return (0);
 	}
