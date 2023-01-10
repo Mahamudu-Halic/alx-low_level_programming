@@ -3,7 +3,7 @@
 /**
  *main - print change
  *@argc: argument number
- *@argc: argument
+ *@argv: argument
  *Return: 0, otherwise 1
  */
 int main(int argc, char **argv)
