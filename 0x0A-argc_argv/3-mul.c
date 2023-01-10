@@ -4,7 +4,7 @@
  *main - prints multiplication of two numbers
  *@argc: number of arguments and commands
  *@argv: array of arguments and commands
- *Return: 0 if arguments are two, otherwise 1
+ *Return: 0, otherwise 1
  */
 int main(int argc, char *argv[])
 {
@@ -15,11 +15,11 @@ int main(int argc, char *argv[])
 		for (i = 1; i < argc; i++)
 			mul *= atoi(argv[i]);
 		printf("%d\n", mul);
+		return 0;
 	}
 	else
 	{
 		printf("ERROR\n");
 		return 1;
 	}
-	return 0;
 }

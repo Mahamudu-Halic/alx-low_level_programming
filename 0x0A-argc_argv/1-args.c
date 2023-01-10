@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  *main - prints the number of arguments passed into it
- *@argc - number of commands and arguments
- *@argv - array of commands and arguments
- *Return - always 0
+ *@argc: number of commands and arguments
+ *@argv: array of commands and arguments
+ *Return: 0
  */
 int main(int argc, char *argv[])
 {
