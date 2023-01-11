@@ -12,11 +12,13 @@ int s1Size = strlen(s1);
 int s2Size = strlen(s2);
 int i;
 
-if (s1 == '\0')
+if (s1 == NULL)
 s1 = "";
-if (s2 == '\0')
+if (s2 == NULL)
 s2 = "";
 ptr = malloc(sizeof(char) * (s1Size + s2Size));
+if (ptr == NULL)
+return (NULL);
 for (i = 0; i < s1Size; i++)
 {
 ptr[i] = s1[i];
