@@ -22,10 +22,20 @@ return (NULL);
 for (i = 0; i < s1Size; i++)
 {
 ptr[i] = s1[i];
+  if (ptr[i] == NULL)
+  {
+  free(ptr);
+  return (NULL);
+  }
 }
 for (i = 0; i < s2Size; i++, s1Size++)
 {
 ptr[s1Size] = s2[i];
+  if (ptr[i] == NULL)
+  {
+  free(ptr);
+  return (NULL);
+  }
 }
 return (ptr);
 }
